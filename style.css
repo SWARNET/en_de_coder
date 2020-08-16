@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-size: 15px;
+    font-family: Monospace;
+}
+.headline{
+    font-size: 28px;
+}
+.inp-dis{
+    border: 1px solid red ;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+}
+.btn{
+    color: #ff3567;
+    border: 2px solid #ff3434;
+    background: white;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 0 0 10px #7373ca;
+    margin: 15px 5px 15px;
+    padding: 5px 12px;
+    font-weight: bold;
+    outline: none;
+    
+    
+}
+.btn:hover{
+    box-shadow: 0 0 10px #737373ca inset;
+    transition: 0.3s;
+}
+#reset:hover{
+    background: #ff3434;
+    color: white;
+    transition: 0.3s;
+}
